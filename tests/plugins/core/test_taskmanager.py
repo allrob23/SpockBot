@@ -5,6 +5,8 @@ from unittest import TestCase
 from spockbot.plugins.core.taskmanager import TaskManager
 from spockbot.plugins.tools.task import Task, TaskFailed
 
+random.seed(42)
+
 
 class EventMock(object):
     def __init__(self):
